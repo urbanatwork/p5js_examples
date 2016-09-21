@@ -7,21 +7,16 @@ function setup() {
 }
 
  function draw() {
-
   fill(200);
 
   if (mouseIsPressed){
   strokeWeight(4);
 stroke(51);
-    //stroke(255);
-    ellipse(mouseX, mouseY, 30, 30);
-    
+    ellipse(mouseX, mouseY, 30, 30);  // sets the ellispse's center point a the x and y coordinates of the mouse x and y
   }
   else{
-   //noStroke();
-    //fill(237, 34, 93)
-    fill(255);
+    fill(255);                        // fills in the ellipse with white
     ellipse(mouseX, mouseY, 30, 30);
 }
-  println(mouseIsPressed);
+  println(mouseIsPressed);            // gives feedback in the console when the mouse is not pressed.
 }
