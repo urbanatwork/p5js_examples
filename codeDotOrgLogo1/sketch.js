@@ -1,5 +1,6 @@
 // Code.org Logo made with code (p5.js code)
 // by Urban Reininger - aka: UrbanAtWork - Classroom ideas - Fall 2016v2
+// Example here: http://code.urbanatwork.com/p5/codeDotOrgLogo1/
 
 // Values from a code.org sticker
 // 75mm width of sticker 
